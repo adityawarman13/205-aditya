@@ -1,0 +1,57 @@
+table,tr,br
+    {
+        background-color: white;
+            font-family: Verdana;
+                border: 5px solid black;
+            padding: 10px;
+        border-collapse: collapse;
+    }
+.h
+    {
+        border: 0px groove whitesmoke;
+            padding: 0px;
+    }
+.k
+    {
+        border: 0px groove whitesmoke;
+            padding: 0px;
+    }
+.posisi
+    {
+        position: absolute;
+            margin-left: auto;
+                margin-right: auto;
+                    margin-bottom: auto;
+                        margin-top: auto;
+                    left: 0px;
+                right: 0px;
+            top: 35px;
+        bottom: 5px;
+    }
+body
+    {
+        background-image: url('grafity.jpg');
+             background-repeat: no-repeat;
+                    background-size: 1600px;
+    }
+    ul
+    {
+        float: right;
+        display: inline-block;
+    }
+ul a
+    {
+        font-size: 16px;
+        font-family: 'Satisfy', cursive;
+        text-decoration: none;
+        color:yellowgreen;
+        margin-right: -5px;
+        padding: 20px;
+        transition: 0.6s ease-in-out;
+    }
+    
+ul a:hover
+    {
+        background-color: #f3ecec;
+        color: #000;
+    }
